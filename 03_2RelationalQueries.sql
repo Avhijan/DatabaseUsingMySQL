@@ -1,29 +1,7 @@
 USE Abhijan;
-
--- Create and Populate Student Table
-CREATE TABLE student ( id INT PRIMARY KEY, name VARCHAR(20), RN INT,batch INT );
-
-INSERT INTO student (id, name, RN, batch) 
-VALUES 
-(1, 'Alu', 01, 2080),
-(2, 'talu', 02, 2080),
-(3, 'lalu', 03, 2088),
-(4, 'kalu', 04, 2087);
-
+---------------------------------------------------
 SELECT * 
 FROM student; --displaying the student table
-
-
--- Create and Populate Teacher Table
-CREATE TABLE teacher ( ID INT PRIMARY KEY, name VARCHAR(10), Faculty VARCHAR(20) );
-
-INSERT INTO teacher (ID, name, Faculty) 
-VALUES 
-(1, 'Sailesh', 'Computer-engineering'),
-(2, 'Isha', 'Computer-engineering'),
-(3, 'PCR', 'Electronics'),
-(4, 'Ukesh', 'AI');
-
 SELECT * 
 FROM teacher; --displaying teacher table
 ----------------------------------------------------
