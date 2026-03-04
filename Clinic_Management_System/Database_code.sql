@@ -1,3 +1,7 @@
+-- Creating a new database (don't use in online editors)
+-- CREATE DATABASE clinic_flow;
+-- USE clinic_flow;
+
 -- creating DEPARTMENTS table
 CREATE TABLE Departments (
     DeptID INT PRIMARY KEY AUTO_INCREMENT,
